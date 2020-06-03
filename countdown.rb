@@ -12,7 +12,7 @@ end
 def countdown(number)
   x = number.to_i
   while x < 0
-    puts x + " SECOND(S)!"
+    puts x + " SECOND(S)!\n"
     x -= 1
   end
   return "HAPPY NEW YEAR!"
