@@ -1,8 +1,7 @@
 #write your code here
-def countdown_with_sleep(int)
-  x = int
-  while x < 0
-    puts x + " SECOND(S)!"
+def countdown_with_sleep(number)
+  while number < 0
+    puts"#{number} SECOND(S)!"
     sleep x
     x -= 1
   end
